@@ -1,0 +1,18 @@
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: lightcoral;
+}
+p {
+  text-align: center;
+}
+a {
+  color: lightseagreen;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(24, 118, 113);
+}
