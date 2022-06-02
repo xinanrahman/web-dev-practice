@@ -20,6 +20,11 @@ p {
   color: rgb(81, 81, 81);
 }
 
+li {
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(81, 81, 81);
+}
+
 a {
   color: lightseagreen;
   text-decoration: none;
