@@ -36,3 +36,13 @@ a:hover {
 a:visited {
   color: rgb(24, 118, 113);
 }
+
+form {
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(81, 81, 81);
+}
+
+.links {
+  margin-top: 50px;
+  font-weight: bold;
+}

@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles/shared.css" />
   </head>
   <body>
     <h1>Register!</h1>
-    <form method="GET">
-      First Name: <input type="text" name="first_name" /> <br />
+    <form method="post">
+      First Name: <input type="text" name="first_name" /> <br /><br />
       Last Name: <input type="text" name="last_name" /> <br />
-      Email: <input type="email" name="email" />
+      <br />
+      Email: <input type="email" name="email" /> <br />
       <br />
       Enter Password:
       <input type="password" name="password" minlength="6" required /> <br />
+      <br />
       Birthday:
       <input type="date" name="birthday" /><br />
-      Gender: <br />
-      <input type="radio" name="gender" value="female" /> Female <br />
-      <input type="radio" name="gender" value="male" /> Male <br />
-      <input type="radio" name="gender" value="other" /> Other<br />
+      <br />
+      Gender:
+      <input type="radio" name="gender" value="female" /> Female
+
+      <input type="radio" name="gender" value="male" /> Male
+
+      <input type="radio" name="gender" value="other" /> Other <br />
+      <br />
       Country:
       <select>
         <option value="Bangladesh">Bangladesh</option>
@@ -33,9 +42,11 @@
         <option value="Phillippines">Phillippines</option>
       </select>
       <br />
+      <br />
+      <br />
       <input type="submit" value="Register" />
-      <input type="reset" /> <br />
+      <input type="reset" />
     </form>
-    <p>View <a href="index.html">Today's Challenge</a></p>
+    <p class="links">View <a href="index.html">today's challenge</a>!</p>
   </body>
 </html>
